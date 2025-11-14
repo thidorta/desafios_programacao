@@ -1,5 +1,5 @@
 votos = list(map(int, input().split()))
-#indice 4 sempre é o votal restante
+#indice 4 sempre é o total restante
 votos_restantes = votos[4]
 soma_total = votos[0]+votos[1]+votos[2]+votos[3]+votos[4]
 pode_ganhar = list()
